@@ -43,3 +43,11 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use haml as template engine
+gem 'haml-rails', '~> 0.4'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.14.0'
+  gem 'rr', '~> 1.1.2'
+end
